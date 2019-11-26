@@ -1,0 +1,14 @@
+
+server:
+  port: 8301
+spring:
+  application:
+    name: ribbon-server
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+service-url:
+  user-service: http://user-service

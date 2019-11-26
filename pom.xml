@@ -12,6 +12,8 @@
         <module>eureka-server</module>
         <module>eureka-client</module>
         <module>eureka-security-server</module>
+        <module>user-service</module>
+        <module>ribbon-service</module>
     </modules>
 
     <parent>
